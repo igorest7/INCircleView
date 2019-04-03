@@ -6,8 +6,18 @@ This is a swift rewrite of a component in Objective C that I wrote several years
 
 
 ## Installation
+### Requirements
+iOS 10.0+
 
-Just add the INCircleView.swift to your project and you're good to go.
+### Cocoapods
+To install through [CocoaPods](http://cocoapods.org) add this to your podfile:
+
+```ruby
+pod 'INCircleView'
+```
+
+### Manual
+Just add INCircleView.swift located in the `INCircleView` folder to your project and you're good to go.
 
 ## Usage
 ### Setup
@@ -83,5 +93,6 @@ Seting the dash number updates the lineDashPattern to show the set number of vis
 lineDashPattern
 ```
 Set the pattern for filled/empty spaces in the circle.
+
 ## License
 MIT license. See the LICENSE file for more info.

@@ -3,7 +3,7 @@
 #  valid spec and to remove all comments including this before submitting the spec.
 
 Pod::Spec.new do |s|
-
+  s.swift_version = "4.2.1"
   s.name         = "INCircleView"
   s.version      = "1.0.0"
   s.summary      = "Lightweight component for drawing progress or indicator circles."
