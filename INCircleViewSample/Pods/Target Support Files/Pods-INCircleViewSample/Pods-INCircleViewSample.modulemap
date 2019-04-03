@@ -1,0 +1,6 @@
+framework module Pods_INCircleViewSample {
+  umbrella header "Pods-INCircleViewSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

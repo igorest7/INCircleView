@@ -12,22 +12,37 @@
 		5C18852121E0FA8100C50C37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C18851F21E0FA8100C50C37 /* Main.storyboard */; };
 		5C18852321E0FA8300C50C37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C18852221E0FA8300C50C37 /* Assets.xcassets */; };
 		5C18852621E0FA8300C50C37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C18852421E0FA8300C50C37 /* LaunchScreen.storyboard */; };
-		5C18852E21E0FA9200C50C37 /* INCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18852D21E0FA9200C50C37 /* INCircleView.swift */; };
-		5C25EB1B224963CD00DD24E5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5C25EB1A224963CC00DD24E5 /* README.md */; };
-		5C25EB1D2249641400DD24E5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5C25EB1C2249641300DD24E5 /* LICENSE */; };
+		5C741D6322547E29006AE732 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5C741D6122547E29006AE732 /* README.md */; };
+		5C741D6422547E29006AE732 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5C741D6222547E29006AE732 /* LICENSE */; };
+		D19F68F160CC0F8D86E53FE2 /* Pods_INCircleViewSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4F62DDEDDE1C64E6E47B56 /* Pods_INCircleViewSample.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5C741D7622547E74006AE732 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		5C18851821E0FA8100C50C37 /* INCircleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INCircleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31319BC2F4A353E85414FEEE /* Pods-INCircleViewSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INCircleViewSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-INCircleViewSample/Pods-INCircleViewSample.debug.xcconfig"; sourceTree = "<group>"; };
+		5C18851821E0FA8100C50C37 /* INCircleViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INCircleViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C18851B21E0FA8100C50C37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C18851D21E0FA8100C50C37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C18852021E0FA8100C50C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C18852221E0FA8300C50C37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C18852521E0FA8300C50C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C18852721E0FA8300C50C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C18852D21E0FA9200C50C37 /* INCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INCircleView.swift; sourceTree = "<group>"; };
-		5C25EB1A224963CC00DD24E5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		5C25EB1C2249641300DD24E5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		5C741D6122547E29006AE732 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		5C741D6222547E29006AE732 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
+		6D0D870AA5A2600D02942FF3 /* Pods-INCircleViewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INCircleViewSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-INCircleViewSample/Pods-INCircleViewSample.release.xcconfig"; sourceTree = "<group>"; };
+		8D4F62DDEDDE1C64E6E47B56 /* Pods_INCircleViewSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_INCircleViewSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19F68F160CC0F8D86E53FE2 /* Pods_INCircleViewSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,13 +62,15 @@
 			children = (
 				5C18851A21E0FA8100C50C37 /* INCircleView */,
 				5C18851921E0FA8100C50C37 /* Products */,
+				CE8E4BA7806237253311DF5D /* Pods */,
+				6E2667F753DEF2EF33353324 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5C18851921E0FA8100C50C37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C18851821E0FA8100C50C37 /* INCircleView.app */,
+				5C18851821E0FA8100C50C37 /* INCircleViewSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,35 +80,54 @@
 			children = (
 				5C18851B21E0FA8100C50C37 /* AppDelegate.swift */,
 				5C18851D21E0FA8100C50C37 /* ViewController.swift */,
-				5C18852D21E0FA9200C50C37 /* INCircleView.swift */,
 				5C18851F21E0FA8100C50C37 /* Main.storyboard */,
 				5C18852221E0FA8300C50C37 /* Assets.xcassets */,
 				5C18852421E0FA8300C50C37 /* LaunchScreen.storyboard */,
 				5C18852721E0FA8300C50C37 /* Info.plist */,
-				5C25EB1C2249641300DD24E5 /* LICENSE */,
-				5C25EB1A224963CC00DD24E5 /* README.md */,
+				5C741D6222547E29006AE732 /* LICENSE */,
+				5C741D6122547E29006AE732 /* README.md */,
 			);
 			path = INCircleView;
+			sourceTree = "<group>";
+		};
+		6E2667F753DEF2EF33353324 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D4F62DDEDDE1C64E6E47B56 /* Pods_INCircleViewSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8E4BA7806237253311DF5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31319BC2F4A353E85414FEEE /* Pods-INCircleViewSample.debug.xcconfig */,
+				6D0D870AA5A2600D02942FF3 /* Pods-INCircleViewSample.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C18851721E0FA8100C50C37 /* INCircleView */ = {
+		5C18851721E0FA8100C50C37 /* INCircleViewSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C18852A21E0FA8300C50C37 /* Build configuration list for PBXNativeTarget "INCircleView" */;
+			buildConfigurationList = 5C18852A21E0FA8300C50C37 /* Build configuration list for PBXNativeTarget "INCircleViewSample" */;
 			buildPhases = (
+				0997793B8A60E2CCCE113C26 /* [CP] Check Pods Manifest.lock */,
 				5C18851421E0FA8100C50C37 /* Sources */,
 				5C18851521E0FA8100C50C37 /* Frameworks */,
 				5C18851621E0FA8100C50C37 /* Resources */,
+				5C741D7622547E74006AE732 /* Embed Frameworks */,
+				CCCD53DB2ED8C3C4A7080F64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = INCircleView;
+			name = INCircleViewSample;
 			productName = INCircleView;
-			productReference = 5C18851821E0FA8100C50C37 /* INCircleView.app */;
+			productReference = 5C18851821E0FA8100C50C37 /* INCircleViewSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5C18851321E0FA8100C50C37 /* Build configuration list for PBXProject "INCircleView" */;
+			buildConfigurationList = 5C18851321E0FA8100C50C37 /* Build configuration list for PBXProject "INCircleViewSample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C18851721E0FA8100C50C37 /* INCircleView */,
+				5C18851721E0FA8100C50C37 /* INCircleViewSample */,
 			);
 		};
 /* End PBXProject section */
@@ -133,20 +170,66 @@
 			files = (
 				5C18852621E0FA8300C50C37 /* LaunchScreen.storyboard in Resources */,
 				5C18852321E0FA8300C50C37 /* Assets.xcassets in Resources */,
-				5C25EB1B224963CD00DD24E5 /* README.md in Resources */,
+				5C741D6322547E29006AE732 /* README.md in Resources */,
 				5C18852121E0FA8100C50C37 /* Main.storyboard in Resources */,
-				5C25EB1D2249641400DD24E5 /* LICENSE in Resources */,
+				5C741D6422547E29006AE732 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0997793B8A60E2CCCE113C26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-INCircleViewSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCCD53DB2ED8C3C4A7080F64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-INCircleViewSample/Pods-INCircleViewSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/INCircleView/INCircleView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/INCircleView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-INCircleViewSample/Pods-INCircleViewSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5C18851421E0FA8100C50C37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C18852E21E0FA9200C50C37 /* INCircleView.swift in Sources */,
 				5C18851E21E0FA8100C50C37 /* ViewController.swift in Sources */,
 				5C18851C21E0FA8100C50C37 /* AppDelegate.swift in Sources */,
 			);
@@ -225,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -280,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,17 +375,20 @@
 		};
 		5C18852B21E0FA8300C50C37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31319BC2F4A353E85414FEEE /* Pods-INCircleViewSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65V47P4VV8;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = INCircleView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = igorNakonetsnoi.INCircleView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,17 +396,20 @@
 		};
 		5C18852C21E0FA8300C50C37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D0D870AA5A2600D02942FF3 /* Pods-INCircleViewSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65V47P4VV8;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = INCircleView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = igorNakonetsnoi.INCircleView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,7 +418,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C18851321E0FA8100C50C37 /* Build configuration list for PBXProject "INCircleView" */ = {
+		5C18851321E0FA8100C50C37 /* Build configuration list for PBXProject "INCircleViewSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C18852821E0FA8300C50C37 /* Debug */,
@@ -338,7 +427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C18852A21E0FA8300C50C37 /* Build configuration list for PBXNativeTarget "INCircleView" */ = {
+		5C18852A21E0FA8300C50C37 /* Build configuration list for PBXNativeTarget "INCircleViewSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C18852B21E0FA8300C50C37 /* Debug */,

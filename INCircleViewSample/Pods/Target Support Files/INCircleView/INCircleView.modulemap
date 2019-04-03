@@ -1,0 +1,6 @@
+framework module INCircleView {
+  umbrella header "INCircleView-umbrella.h"
+
+  export *
+  module * { export * }
+}

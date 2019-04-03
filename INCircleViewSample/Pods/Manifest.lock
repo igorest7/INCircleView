@@ -1,0 +1,16 @@
+PODS:
+  - INCircleView (1.0.0)
+
+DEPENDENCIES:
+  - INCircleView (from `../`)
+
+EXTERNAL SOURCES:
+  INCircleView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  INCircleView: 5bad54790862d318d3cc9e82833db239d76df16f
+
+PODFILE CHECKSUM: e156dee8af580be477dfddeb43a4457cf9f7a140
+
+COCOAPODS: 1.5.3

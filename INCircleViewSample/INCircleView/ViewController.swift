@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import INCircleView
 
 class ViewController: UIViewController {
 
