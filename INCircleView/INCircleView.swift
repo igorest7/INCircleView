@@ -419,22 +419,13 @@ extension INCircleView {
 
 		filledLayers.forEach({
 			$0.path = fillCirclePath()
-			if roundedCorners {
-				$0.lineCap = .round
-			}else {
-				$0.lineCap = .butt
-			}
+			$0.lineCap = CAShapeLayerLineCap(rawValue: roundedCorners ? CAShapeLayerLineCap.round.rawValue : CAShapeLayerLineCap.butt.rawValue)
 		})
 		
 		emptyLayer.path = emptyCirclePath()
 		emptyBackgroundLayer.path = emptyCircleBackgroundPath()
 		capLayer.path = indicatorCirclePath()
 
-		if roundedCorners {
-			emptyLayer.lineCap = .round
-		}else {
-			emptyLayer.lineCap = .butt
-		}
-
+		emptyLayer.lineCap = roundedCorners ? CAShapeLayerLineCap.round.rawValue :  CAShapeLayerLineCap.butt.rawValue
 	}
 }
