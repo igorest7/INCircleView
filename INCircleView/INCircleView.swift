@@ -419,20 +419,22 @@ extension INCircleView {
 
 		filledLayers.forEach({
 			$0.path = fillCirclePath()
-			/* Updated the corner setting to include CAShapeLayerLineCap because spec lint thought it was a string.
-			error: type 'String' has no member 'round'; did you mean 'count'?
-			$0.lineCap = roundedCorners ? .round : .butt
-										   ^~~~~
-										   count
-
-*/
-			$0.lineCap = roundedCorners ? CAShapeLayerLineCap.round : CAShapeLayerLineCap.butt
+			if roundedCorners {
+				$0.lineCap = .round
+			}else {
+				$0.lineCap = .butt
+			}
 		})
 		
 		emptyLayer.path = emptyCirclePath()
 		emptyBackgroundLayer.path = emptyCircleBackgroundPath()
 		capLayer.path = indicatorCirclePath()
 
-		emptyLayer.lineCap = roundedCorners ? CAShapeLayerLineCap.round : CAShapeLayerLineCap.butt
+		if roundedCorners {
+			emptyLayer.lineCap = .round
+		}else {
+			emptyLayer.lineCap = .butt
+		}
+
 	}
 }
