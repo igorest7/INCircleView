@@ -3,7 +3,6 @@
 #  valid spec and to remove all comments including this before submitting the spec.
 
 Pod::Spec.new do |s|
-  s.swift_version = "4.2.1"
   s.name         = "INCircleView"
   s.version      = "1.0.1"
   s.summary      = "Lightweight component for drawing progress or indicator circles."
@@ -16,9 +15,10 @@ A customisable circle progress or indicator view. Easily configurable in the int
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Igor Nakonetsnoi" => "igorest7@gmail.com" }
   s.social_media_url   = "https://www.linkedin.com/in/igornakonetsnoi/"
-  s.platform     = :ios
   s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/igorest7/INCircleView.git", :tag => s.version }
   s.source_files  = 'INCircleView'
+  s.requires_arc = true
+  s.swift_version = "4.2"
 
 end
