@@ -144,6 +144,7 @@ import os.log
 	}
 
 	/**
+	Available in iOS 12+
 	Sets corner style for the fill layers. Defaults to false.
 	*/
 	@IBInspectable var roundedCorners: Bool = false {
@@ -419,13 +420,17 @@ extension INCircleView {
 
 		filledLayers.forEach({
 			$0.path = fillCirclePath()
-			$0.lineCap = CAShapeLayerLineCap(rawValue: roundedCorners ? CAShapeLayerLineCap.round.rawValue : CAShapeLayerLineCap.butt.rawValue)
+			if #available(iOS 12.0, *) {
+				$0.lineCap = roundedCorners ? .round : .butt
+			}
 		})
 		
 		emptyLayer.path = emptyCirclePath()
 		emptyBackgroundLayer.path = emptyCircleBackgroundPath()
 		capLayer.path = indicatorCirclePath()
 
-		emptyLayer.lineCap = roundedCorners ? CAShapeLayerLineCap.round.rawValue :  CAShapeLayerLineCap.butt.rawValue
+		if #available(iOS 12.0, *) {
+			emptyLayer.lineCap = roundedCorners ? .round : .butt
+		}
 	}
 }
