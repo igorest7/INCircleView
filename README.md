@@ -2,7 +2,7 @@
 
 This is a swift rewrite of a component in Objective C that I wrote several years ago. It is intended to be used as a lightweight customisable circle progress or indicator view. To make it easy to setup most of the parameters can be setup in the Interface Builder and the values are 0 to 1 so the progress values returned from other parts of the app can be passed directly without having to worry about converting to angles.
 
-![Example](Example.gif)
+![Example](https://github.com/igorest7/INCircleView/blob/master/Example.gif)
 
 
 ## Installation
